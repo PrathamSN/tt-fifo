@@ -6,8 +6,10 @@ SIM ?= icarus
 FST ?= -fst # Use more efficient FST format
 TOPLEVEL_LANG ?= verilog
 SRC_DIR = $(PWD)/../src
-PROJECT_SOURCES = project.v
-
+PROJECT_SOURCES = 
+PROJECT_SOURCES = 
+FIFO_SYNCHRONOUS.v 
+tt_um_fifo.v
 ifneq ($(GATES),yes)
 
 # RTL simulation:
